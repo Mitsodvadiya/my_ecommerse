@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h3 class="mylogo">My Shop</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="blog.html">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contect.html">Contect</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="true">
+                              Collaction
+                            </a>
+                            <ul class="dropdown-menu " data-bs-popper="static">
+                              <li><a class="dropdown-item" href="shop.html">Man</a></li>
+                              <li><a class="dropdown-item" href="shop.html">Woman</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-info px-4" onclick="window.location.href='signup.html'"
+                        style="font-family:dancing;font-weight:bolder;" type="submit">SignUp</button>
+                    <button class="btn btn-outline-info ms-2 px-4" onclick="window.location.href='login.html'"
+                        style="font-family:dancing;font-weight:bolder;" type="submit">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid d-flex flex-column align-items-center text-center justify-content-center  mb-5 "
+        id="about-banner">
+        <div class="container">
+            <div class="row ">
+                <h1>#KnowUs</h1>
+                <small>read more about us!</small>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="main_about">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/about/a6.jpg" alt="">
+            </div>
+            <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+                <h1>Who we are ?</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quia dicta recusandae pariatur quaerat
+                    quis repudiandae hic et molestias deleniti. Modi provident saepe consequuntur commodi praesentium
+                    repellendus possimus illum ducimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Suscipit molestias non animi consequatur voluptates tempora earum hic! Atque, nemo delectus?</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore molestiae hic minima voluptatibus
+                    officiis deleniti, quaerat veritatis. Vitae, corporis a.</span><br>
+                <marquee behavior="scroll" direction="left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+                    ut, maiores nam officia magnam odit sunt repudiandae harum architecto suscipit assumenda!
+                    Perferendis sequi impedit rerum eligendi ipsa quibusdam, temporibus non.</marquee>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 app-vidio">
+        <div class="row text-center mt-5">
+            <span>Download Our <a href="https://play.google.com/store/search?q=ff&c=apps&hl=en-IN">APP</a></span>
+        </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <video src="./images/about/1.mp4" autoplay width="100%" class="my-4" id="vidio" loop></video>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center my-5 featcher" id="banner-items">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-6 p-0" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-placement="bottom"
+                        data-bs-content="You will got a coupan which is used for got discount.">
+                        <img src="./images/f1.png" alt="">
+                        <h6 class="mt-3">Free Shopping</h6>
+                    </div>
+                    <div class="col-6 p-0" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-placement="bottom"
+                        data-bs-content="You can Also got your order at your home without any tension!!">
+                        <img src="./images/f2.png" alt="">
+                        <h6 class="mt-3">online order</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-6 p-0" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-placement="bottom"
+                        data-bs-content="Our product is very cost effeciant and best quality!">
+                        <img src="./images/f3.png" alt="">
+                        <h6 class="mt-3">Save Money</h6>
+                    </div>
+                    <div class="col-6 p-0" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-placement="bottom"
+                        data-bs-content="we wish that give us rating if you like our product.">
+                        <img src="./images/f4.png" alt="">
+                        <h6 class="mt-3">Promoshions</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-6 p-0" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-placement="bottom" data-bs-content="sale is on in festival ! ">
+                        <img src="./images/f5.png" alt="">
+                        <h6 class="mt-3">Happy sale</h6>
+                    </div>
+                    <div class="col-6 p-0" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-placement="bottom"
+                        data-bs-content="You will got full supoort by our team if you need any help then mail us !">
+                        <img src="./images/f6.png" alt="">
+                        <h6 class="mt-3">24/7 support</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 pt-5" id="signupbanner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 style="font-family: dancing;" class="d-inline-block">Sign Up For Newslatters</h1>
+                    <p class="d-inline-block">Get e-mail updates about our latest shop <span>special offer</span></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group input-group-lg mb-3">
+                        <input type="text" class="form-control" placeholder="Your Email Adress"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-info" type="button" id="button-addon2"><a href=""
+                                style="font-family:'Times New Roman', Times, serif;text-decoration:none;color:#fff;font-weight:bold;">SignUp</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row footer py-5">
+                <div class="col-md-4">
+                    <h3 class="mylogo">My Shop</h3><br>
+                    <h6>Contect</h6><br>
+                    <span><span class="collan">Address :</span> E-20 Matrushakti soc surat</span><br>
+                    <span><span class="collan">Phone :</span> 8141310180</span><br>
+                    <span><span class="collan">Hour :</span> 10-20/Monday to saterday</span><br><br>
+                    <h6>Follow Us</h6>
+                    <i class="fa-brands fa-facebook" style="color: #005cfa;"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="col-md-2">
+                    <h6>About</h6>
+                    <span>About Us</span><br>
+                    <span>Delivery Information</span><br>
+                    <span>Privacy Policy</span><br>
+                    <span>Terms and condition</span><br>
+                    <span>Contect Us</span><br>
+                </div>
+                <div class="col-md-2">
+                    <h6>My Account</h6>
+                    <span>Sign in</span><br>
+                    <span>View Cart</span><br>
+                    <span>My Watchlist</span><br>
+                    <span>Track My order</span><br>
+                    <span>Help</span><br>
+                </div>
+                <div class="col-md-4">
+                    <h6>Install App</h6>
+                    <span>from App store or google play</span><br><br>
+                    <img src="./images/pay/app.jpg" alt="">
+                    <img src="./images/pay/play.jpg" alt=""><br><br>
+                    <span>Secured Payment Getways</span><br><br>
+                    <img src="./images/pay/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+    </script>
+</body>
+
+</html>
